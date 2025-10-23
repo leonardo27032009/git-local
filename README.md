@@ -209,6 +209,67 @@ git log --oneline --graph
 
 ---
 
+## 🧬 17. Clonar um Repositório `git clone`
+Quando usar: Sempre que você for começar a trabalhar em um projeto que já está hospedado online.
+```bash
+git clone <URL_DO_REPOSITÓRIO>
+# Exemplo:
+# git clone https://github.com/usuario/meu-projeto.git
+cd meu-projeto
+```
+
+---
+
+## ➕ 18. Preparar Alterações `git add`
+Quando usar: Depois de fazer mudanças em seus arquivos e antes de realizar o `commit`.
+```bash
+# Adiciona um arquivo específico à área de staging
+git add nome-do-arquivo.extensao
+
+# Adiciona todas as alterações e novos arquivos à área de staging
+git add .
+```
+
+---
+## 🖨️ 19. Salvar no Histórico Local `git commit`
+Quando usar: Após ter preparado todas as alterações relacionadas a uma tarefa ou correção.
+```bash
+git commit -m "feat: Adiciona nova tela de login"
+# OU (para commits mais longos, abrirá o editor):
+git commit
+```
+---
+## 🪢 20. Enviar para o Remoto `git push`
+Quando usar: Quando você finaliza uma tarefa e deseja que a equipe ou o projeto online recebam suas atualizações.
+```bash
+# Envia commits da sua branch local para a branch remota
+git push origin <nome-da-branch>
+# Exemplo, enviando para a branch principal:
+# git push origin main
+```
+---
+## 🚀 21. Fluxo de Trabalho Típico
+Um ciclo de contribuição se resume a:
+
+1. git clone (Apenas uma vez)
+
+2. Fazer Alterações no Código
+
+3. git add .
+
+4. git commit -m "mensagem"
+
+5. git push (para enviar as alterações)
+
+---
+## 💡Ferramenta Auxiliar: GitFluence (Seu Assistente de IA)
+O GitFluence é uma solução online que utiliza Inteligência Artificial (IA) para simplificar a busca por comandos Git. Ele atua como um Gerador de Comandos Git em linguagem natural.
+
+O que faz: Você digita o que deseja realizar (em português ou inglês) e a ferramenta retorna o comando Git exato, pronto para ser copiado e colado no seu terminal.
+
+Quando usar: Quando você sabe qual ação tomar, mas esqueceu a sintaxe correta ou precisa de comandos mais complexos rapidamente.
+
+---
 ## 📘 Créditos
 
 Material criado para fins educacionais na aula prática de **Git Local**,  
