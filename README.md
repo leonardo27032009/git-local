@@ -260,6 +260,38 @@ Um ciclo de contribuição se resume a:
 4. git commit -m "mensagem"
 
 5. git push (para enviar as alterações)
+---
+## 👥 22. Como Adicionar Colaboradores `Repositório Privado`
+Para compartilhar seu repositório com outras pessoas e permitir que elas possam acessar, editar ou contribuir com o código, é necessário adicioná-las como colaboradoras na plataforma (ex: GitHub).
+
+Siga o passo a passo abaixo para conceder acesso:
+
+1. 🌐 Acesse seu Repositório no GitHub
+Vá até o site https://github.com e entre na sua conta, navegando até o repositório desejado.
+
+2. ⚙️ Abra as Configurações (Settings)
+Dentro da página do repositório, clique na aba "Settings" (Configurações) no menu superior.
+
+3. 🔑 Vá até a Seção de Acesso
+No menu lateral esquerdo, clique em "Collaborators" ou "Manage access" (Gerenciar acesso).
+
+4. ➕ Adicione um Novo Colaborador
+Clique no botão verde "Add people" (Adicionar pessoas).
+
+5. 🔎 Procure o Usuário
+Digite o nome de usuário ou e-mail da pessoa que você quer adicionar e selecione-a na lista.
+
+6. 📝 Defina as Permissões
+Escolha o tipo de acesso:
+
+Read: Apenas visualiza o repositório.
+
+Write: Pode enviar (push) alterações e contribuir ativamente.
+
+Admin: Controle total sobre o repositório (incluindo configurações).
+
+7. ✅ Envie o Convite
+Clique em "Add collaborator" (Adicionar colaborador).
 
 ---
 ## 💡Ferramenta Auxiliar: GitFluence (Seu Assistente de IA)
