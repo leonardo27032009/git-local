@@ -1,6 +1,7 @@
 # 🧩 Aula Prática – Git Local (sem GitHub)
 
-## 🍆 Objetivo
+## 🎯![ArcherGIF](https://github.com/user-attachments/assets/ba74e937-6489-47ef-8eb7-e4d0f5657bfe)
+ Objetivo
 Aprender a utilizar o **Git** localmente para versionar projetos, criando commits, branches e manipulando o histórico de forma segura.
 
 ---
